@@ -1,30 +1,23 @@
 #  MNIST Digit Classification using PCA + KNN
 
 This project builds a complete machine learning pipeline to classify
-handwritten digits from the **MNIST dataset**.\
-It demonstrates essential ML concepts such as preprocessing,
-dimensionality reduction, model training, visualization, and evaluation.
-
-This is a clean, professionally structured notebook --- ideal for a
-**portfolio project**.
+handwritten digits from the **MNIST dataset**
 
 ------------------------------------------------------------------------
 
 ## Project Highlights
 
--   Load MNIST CSV dataset\
--   Scale features using **MinMaxScaler**\
--   Reduce dimensionality using **PCA (50 components)**\
--   Train a **K-Nearest Neighbors (KNN)** classifier\
--   Use **GridSearchCV** for hyperparameter tuning\*\*\
--   Visualize PCA variance & confusion matrix\
+-   Load MNIST CSV dataset
+-   Scale features using **MinMaxScaler**
+-   Reduce dimensionality using **PCA (50 components)**
+-   Train a **K-Nearest Neighbors (KNN)** classifier
+-   Use **GridSearchCV** for hyperparameter tuning
+-   Visualize PCA variance & confusion matrix
 -   Achieve high accuracy on MNIST test set
 
 ------------------------------------------------------------------------
 
 ##  Project Structure
-
-    .
     ├── Data    
     ├── README.md
     └── mnist_knn_pca.ipynb                       
@@ -46,15 +39,15 @@ pixels) and a label column.
 
 ### **3. Visualization**
 
--   Display sample MNIST digit\
--   PCA 2D scatter plot\
+-   Display sample MNIST digit
+-   PCA 2D scatter plot
 -   PCA explained variance plot
 
 ### **4. Model Training**
 
-Uses **K-Nearest Neighbors (KNN)**.\
+Uses **K-Nearest Neighbors (KNN)**
 Hyperparameters tuned using **GridSearchCV**: - `n_neighbors` from 1 to
-20\
+20
 - `weights`: uniform or distance
 
 ### **5. Evaluation**
@@ -82,11 +75,10 @@ Hyperparameters tuned using **GridSearchCV**: - `n_neighbors` from 1 to
 git clone https://github.com/naim13107/mnist-pca-knn.git
 cd mnist-pca-knn
 ```
-
-### **2. Install Dependencies**
+### **2. Download the datasets **
 
 ``` bash
-pip install -r requirements.txt
+Link given in Data/data_availivility.txt
 ```
 
 ### **3. Run the Notebook**
@@ -99,12 +91,10 @@ jupyter notebook mnist_portfolio_ready.ipynb
 
 ## Requirements
 
-See `requirements.txt` for all dependencies:
-
--   numpy\
--   pandas\
--   matplotlib\
--   seaborn\
+-   numpy
+-   pandas
+-   matplotlib
+-   seaborn
 -   scikit-learn
 
 ------------------------------------------------------------------------
