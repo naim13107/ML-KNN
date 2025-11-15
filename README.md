@@ -25,9 +25,9 @@ This is a clean, professionally structured notebook --- ideal for a
 ##  Project Structure
 
     .
-    ├── mnist_knn_pca.ipynb     
-    ├── Data
-    └── README.md                       
+    ├── Data    
+    ├── README.md
+    └── mnist_knn_pca.ipynb                       
 
 ------------------------------------------------------------------------
 
