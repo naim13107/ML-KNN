@@ -75,7 +75,7 @@ Hyperparameters tuned using **GridSearchCV**: - `n_neighbors` from 1 to
 git clone https://github.com/naim13107/mnist-pca-knn.git
 cd mnist-pca-knn
 ```
-### **2. Download the datasets **
+### ** 2. Download the datasets **
 
 ``` bash
 Link given in Data/data_availivility.txt
